@@ -8,7 +8,6 @@ import sistema_bibliotecario.dto.EditoraDto;
 import sistema_bibliotecario.exception.EntidadeOrfaException;
 import sistema_bibliotecario.exception.RegistroDuplicadoException;
 import sistema_bibliotecario.mapper.EditoraMapper;
-import sistema_bibliotecario.model.Autor;
 import sistema_bibliotecario.model.Editora;
 import sistema_bibliotecario.repository.EditoraRepository;
 

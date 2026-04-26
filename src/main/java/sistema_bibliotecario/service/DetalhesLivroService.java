@@ -23,7 +23,6 @@ public class DetalhesLivroService {
 	}
 	
 	  public List<DetalhesLivro> listarDisponiveis() {
-	        // O Service decide que só detalhes sem livro podem ser retornados
 	        return repo.buscarDetalhesDisponiveis();
 	    }
 	

@@ -2,7 +2,6 @@
 
 @import url('https://googleapis.com');
 
-/* 1. Base e Centralização */
 body {
 	font-family: 'Inter', sans-serif;
 	background-color: #ffffff;
@@ -15,11 +14,10 @@ body {
 
 .main-container {
 	width: 100%;
-	max-width: 650px; /* Formulário centralizado e elegante */
+	max-width: 650px;
 	padding: 0 20px;
 }
 
-/* 2. Cabeçalho */
 .form-header {
 	text-align: center;
 	border-bottom: 2px solid #000;
@@ -41,7 +39,7 @@ body {
 	margin: 10px 0 0 0;
 }
 
-/* 3. Inputs Estilo Linha (Minimalista) */
+
 .form-group {
 	margin-bottom: 35px;
 }
@@ -77,7 +75,6 @@ label {
 	padding: 10px;
 }
 
-/* 4. Erros e Botões */
 .error-msg {
 	color: #c94a4a;
 	font-size: 0.8rem;

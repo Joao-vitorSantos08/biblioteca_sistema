@@ -8,7 +8,7 @@
 <body>
 
     <div class="main-container">
-        <!-- Cabeçalho com botão de adicionar no topo -->
+      
         <header class="admin-header border-bottom pb-4 mb-5">
             <span class="admin-badge">Área Técnica / Gestão de Especificações</span>
             <div class="header-flex">
@@ -23,7 +23,7 @@
                 </div>
         </header>
 
-        <!-- Tabela Estilizada -->
+      
         <table class="table-minimal">
             <thead>
                 <tr>
@@ -44,7 +44,7 @@
                            onclick="return confirm('Excluir este detalhe permanentemente?')">Remover</a>
                     </td>
                 </tr>
-                <!-- Mensagem caso a lista esteja vazia -->
+             
                 <tr th:if="${#lists.isEmpty(detalhes)}">
                     <td colspan="4" style="text-align: center; padding: 50px; color: #777;">
                         Nenhum detalhe técnico cadastrado.

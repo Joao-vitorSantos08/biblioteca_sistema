@@ -3,10 +3,10 @@
 @import url('https://googleapis.com');
 
 :root {
-	--primary: #4f46e5; /* Roxo/Azul vibrante */
-	--success: #10b981; /* Verde esmeralda */
-	--danger: #f43f5e; /* Rosa/Vermelho moderno */
-	--background: #f8fafc; /* Cinza bem clarinho para o fundo */
+	--primary: #4f46e5;
+	--success: #10b981; 
+	--danger: #f43f5e; 
+	--background: #f8fafc;
 	--card: #ffffff;
 	--text: #1e293b;
 }
@@ -24,11 +24,11 @@ body {
 	margin: 0 auto;
 	background: var(--card);
 	padding: 40px;
-	border-radius: 20px; /* Cantos bem arredondados dão vida */
-	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); /* Sombra suave */
+	border-radius: 20px;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); 
 }
 
-/* Títulos com fonte Poppins para mais estilo */
+
 h1, .livro-titulo {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 800;
@@ -52,11 +52,10 @@ h1, .livro-titulo {
 	text-transform: uppercase;
 }
 
-/* --- TABELA MODERNA --- */
 .table {
 	width: 100%;
 	border-collapse: separate;
-	border-spacing: 0 8px; /* Cria espaço entre as linhas */
+	border-spacing: 0 8px; 
 	margin-top: 30px;
 }
 
@@ -70,7 +69,7 @@ h1, .livro-titulo {
 	border: none;
 }
 
-/* Cada linha parece um cartão (Card) */
+
 .table tbody tr {
 	background-color: #ffffff;
 	transition: transform 0.2s, box-shadow 0.2s;
@@ -95,7 +94,7 @@ h1, .livro-titulo {
 	border-radius: 0 12px 12px 0;
 }
 
-/* --- DETALHES COLORIDOS --- */
+
 .isbn-text {
 	color: var(--primary);
 	font-weight: 700;
@@ -109,7 +108,7 @@ h1, .livro-titulo {
 
 .btn-novo {
 	background: linear-gradient(135deg, var(--primary), var(--success));
-	/* Gradiente dá muita vida */
+
 	color: white !important;
 	border-radius: 12px;
 	padding: 12px 28px;
